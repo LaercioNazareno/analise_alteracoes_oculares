@@ -1,0 +1,121 @@
+,Animal,alteracao
+0,1,blefarite
+1,2,edema de córnea
+2,2,neovascularização
+3,2,catarata
+4,2,vasos episclerais ingurgitados
+5,2,buftalmia
+6,3,edema de córnea
+7,3,neovascularização
+8,3,vasos episclerais ingurgitados
+9,3,hifema
+10,3,buftalmia
+11,4,neovascularização
+12,4,secreção mucopurulenta
+13,4,ceratite pigmentar
+14,5,neovascularização
+15,5,secreção mucopurulenta
+16,5,ceratite pigmentar
+17,6,vasos episclerais ingurgitados
+18,6,ceratite pigmentar
+19,7,edema de córnea
+20,7,blefarite
+21,7,vasos episclerais ingurgitados
+22,8,edema de córnea
+23,8,neovascularização
+24,8,catarata
+25,8,vasos episclerais ingurgitados
+26,9,edema de córnea
+27,9,catarata
+28,9,vasos episclerais ingurgitados
+29,10,edema de córnea
+30,10,catarata
+31,10,vasos episclerais ingurgitados
+32,10,atrofia de íris
+33,10,secreção mucoide
+34,11,catarata
+35,11,vasos episclerais ingurgitados
+36,11,secreção mucopurulenta
+37,12,catarata
+38,12,vasos episclerais ingurgitados
+39,12,secreção mucopurulenta
+40,13,edema de córnea
+41,13,miose
+42,13,vasos episclerais ingurgitados
+43,13,neovascularizaçao
+44,14,neovascularização
+45,14,secreção purulenta
+46,14,vasos episclerais ingurgitados
+47,15,edema de córnea
+48,15,catarata
+49,15,vasos episclerais ingurgitados
+50,15,buftalmia
+51,15,midríase
+52,16,blefarite
+53,16,catarata
+54,16,vasos episclerais ingurgitados
+55,16,secreção mucopurulenta
+56,16,ceratite pigmentar
+57,17,catarata
+58,17,vasos episclerais ingurgitados
+59,18,catarata
+60,18,vasos episclerais ingurgitados
+61,18,secreção mucopurulenta
+62,19,edema de córnea
+63,19,vasos episclerais ingurgitados
+64,19,sinéquia de íris
+65,19,flare aquoso
+66,20,edema de córnea
+67,20,com perda de humor aquoso
+68,20,injeção episcleral
+69,20,não foi possivel realizar nenhum teste oftálmico por causa da gravidade do problema
+70,22,edema de córnea
+71,22,neovascularização
+72,22,secreção purulenta
+73,22,vasos episclerais ingurgitados
+74,22,ceratite pigmentar
+75,23,hipópio
+76,23,edema de córnea
+77,23,blefarite
+78,23,secreção purulenta
+79,23,vasos episclerais ingurgitados
+80,24,fundo de olho de coloração avermelhada
+81,25,sem secreção aparente
+82,25,sem secreção
+83,25,vasos episclerais ingurgitados
+84,26,edema de córnea
+85,26,vasos episclerais ingurgitados
+86,26,buftalmia
+87,27,vasos episclerais ingurgitados
+88,27,secreção mucopurulenta
+89,28,catarata
+90,28,vasos episclerais ingurgitados
+91,28,secreção mucopurulenta
+92,28,ceratite pigmentar
+93,29,hipópio
+94,29,edema de córnea
+95,29,hipópion não deu para avaliar por causa de intensa inflamação/infecção
+96,29,úlcera de córnea profunda
+97,29,miíase
+98,29,injeção episclearal
+99,30,neovascularização
+100,30,blefarite
+101,31,sem secreção
+102,31,vasos episclerais ingurgitados
+103,32,vasos episclerais ingurgitados
+104,32,secreção mucoide
+105,33,edema de córnea
+106,33,vasos episclerais ingurgitados
+107,33,secreção mucopurulenta
+108,33,entrópio
+109,34,vasos episclerais ingurgitados
+110,34,secreção mucoide
+111,35,edema de córnea
+112,35,neovascularização
+113,35,vasos episclerais ingurgitados
+114,35,buftalmia
+115,36,hipópio
+116,36,edema de córnea
+117,36,secreção purulenta
+118,36,vasos episclerais ingurgitados
+119,36,descemetocele

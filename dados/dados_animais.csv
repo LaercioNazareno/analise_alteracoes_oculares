@@ -1,0 +1,35 @@
+,Animal,Alterações oculares observadas,TLS OD,TLS OE,Teste de fluorosceína,PIO OE,PIO OD,RAÇA,IDADE,DIAGNÓSTICO,LOCALIZAÇÃO,tem leishmaniose,tem_leishmaniose,Nome
+0,1,"Opacidade corneana, blefarite",23.0,22.0,0,14.0,16.0,Border collie,9,FLORIDA SPOTS,BILATERAL,sim,1,MIKE
+1,2,"vasos episclerais ingurgitados, edema de córnea, buftalmia, neovascularização, catarata",14.0,15.0,0,7.0,22.0,Pinscher,12,UVEÍTE E GLAUCOMA,BILATERAL,sim,1,SNIFF
+2,3,"vasos episclerais ingurgitados, edema de córnea, buftalmia, neovascularização, hifema",16.0,16.0,0,22.0,8.0,Pinscher,4,GLAUCOMA,UNILATERAL,sim,1,MEG
+3,4,"neovascularização, ceratite pigmentar, secreção mucopurulenta",3.0,2.0,0,13.0,12.0,SRD,8,CCS,BILATERAL,sim,1,HERCULES
+4,5,"neovascularização, ceratite pigmentar, secreção mucopurulenta",3.0,5.0,0,14.0,15.0,SRD,17,CCS,BILATERAL,sim,1,DANILINHO
+5,6,"Atrofia de todo o globo ocular, ceratite pigmentar, vasos episclerais ingurgitados",12.0,13.0,0,5.0,6.0,SRD,9,PHITISIS BULBI,BILATERAL,sim,1,THOR
+6,7,"Lesões perioculares, blefarite, edema de córnea, vasos episclerais ingurgitados",13.0,14.0,0,7.0,5.0,Pinscher,3,UVEÍTE,UNILATERAL,sim,1,KALIL
+7,8,"vasos episclerais ingurgitados, edema de córnea, neovascularização, catarata",14.0,12.0,0,7.0,9.0,Pinscher,4,UVEÍTE,UNILATERAL,sim,1,JADE
+8,9,"vasos episclerais ingurgitados, edema de córnea, catarata",12.0,13.0,0,14.0,21.0,Pinscher,9,UVEÍTE E GLAUCOMA,BILATERAL,sim,1,CHIQUINHA
+9,10,"vasos episclerais ingurgitados, secreção mucoide, catarata, edema de córnea, atrofia de íris",14.0,14.0,1,12.0,8.0,Poodle,9,UVEÍTE,UNILATERAL,sim,1,LAYLA
+10,11,"vasos episclerais ingurgitados, secreção mucopurulenta, catarata",6.0,4.0,0,14.0,15.0,Yorkshire,13,CCS,BILATERAL,sim,1,JUJU
+11,12,"vasos episclerais ingurgitados, secreção mucopurulenta, catarata",2.0,5.0,0,12.0,13.0,Yorkshire,15,CCS,BILATERAL,sim,1,LILICA
+12,13,"vasos episclerais ingurgitados, edema de córnea, neovascularizaçao, miose",13.0,13.0,0,7.0,15.0,Pitbull,6,UVEÍTE,BILATERAL,sim,1,DUKE
+13,14,"Quemose, vasos episclerais ingurgitados, secreção purulenta, neovascularização",15.0,14.0,1,8.0,15.0,Bulldog francês,6,ÚLCERA DE CÓRNEA,UNILATERAL,sim,1,JAKE
+14,15,"vasos episclerais ingurgitados, buftalmia, catarata, edema de córnea, midríase",13.0,12.0,0,9.0,22.0,SRD,12,GLAUCOMA,UNILATERAL,sim,1,TOBY
+15,16,"vasos episclerais ingurgitados, ceratite pigmentar, secreção mucopurulenta, blefarite, catarata",2.0,0.0,0,17.0,14.0,Hottweiller,8,CCS,BILATERAL,sim,1,DOM
+16,17,"Hifema em câmara anterior, vasos episclerais ingurgitados, catarata",14.0,15.0,0,10.0,33.0,Poodle,14,GLAUCOMA,UNILATERAL,sim,1,SEVEN
+17,18,"Phitisis bulbi em OE, secreção mucopurulenta, vasos episclerais ingurgitados, catarata",16.0,14.0,1,4.0,14.0,Maltês,12,ÚLCERA DE CÓRNEA E PHISTIS BULBI,UNILATERAL,não,0,BONOVOX
+18,19,"vasos episclerais ingurgitados, sinéquia de íris, edema de córnea, flare aquoso",15.0,18.0,0,12.0,49.0,Gato SRD,16,GLAUCOMA,UNILATERAL,não,0,KAWAY
+20,21,Catarata bilateral,16.0,15.0,0,15.0,15.0,SRD,12,CATARATA,BILATERAL,não,0,BOB
+21,22,"vasos episclerais ingurgitados, secreção purulenta, edema de córnea, ceratite pigmentar, neovascularização",9.0,11.0,1,15.0,14.0,Shi-tzu,9,ÚLCERA DE CÓRNEA,UNILATERAL,não,0,LUA
+22,23,"vasos episclerais ingurgitados, edema de córnea, hipópio, secreção purulenta, blefarite",22.0,18.0,1,18.0,22.0,Bulldog inglês,9,ÚLERA DE CÓRNEA,UNILATERAL,não,0,OZZY
+23,24,"Sem reflexo pupilar direto/indireto, fundo de olho de coloração avermelhada",10.0,12.0,0,15.0,15.0,Shi-tzu,5,NEURITE ÓPTICA,BILATERAL,não,0,NICK
+24,25,"Catarata bilateral, vasos episclerais ingurgitados, sem secreção aparente",14.0,12.0,0,15.0,7.0,Pinscher,13,UVEÍTE,UNILATERAL,não,0,BITECA
+25,26,"Ceratite pigmentar, vasos episclerais ingurgitados, buftalmia, edema de córnea",0.0,9.0,0,89.0,20.0,Shi-tzu,14,GLAUCOMA,UNILATERAL,não,0,BEBEL
+26,27,"Ceratite pigmentar, vasos episclerais ingurgitados, secreção mucopurulenta",18.0,15.0,0,15.0,12.0,Lhasa-Apso,10,CSS,BILATERAL,não,0,PACO
+27,28,"secreção mucopurulenta, ceratite pigmentar, catarata, vasos episclerais ingurgitados",14.0,8.0,0,15.0,13.0,Lhasa-Apso,11,CSS,BILATERAL,não,0,NINA
+29,30,"Opacidade corneana, blefarite, neovascularização",15.0,15.0,0,15.0,14.0,Pitbull,4,FLORIDA SPOTS,BILATERAL,não,0,BRISA
+30,31,"Flare aquoso, vasos episclerais ingurgitados, sem secreção",17.0,18.0,0,15.0,8.0,Gato SRD,1,UVEÍTE,UNILATERAL,não,0,PETÚNIA
+31,32,"Catarata bilateral, vasos episclerais ingurgitados, secreção mucoide",15.0,15.0,0,8.0,22.0,Maltês,14,UVEÍTE,UNILATERAL,não,0,THOR
+32,33,"edema de córnea, entrópio, secreção mucopurulenta, vasos episclerais ingurgitados",16.0,18.0,1,21.0,23.0,Bulldog inglês,3,ÚLCERA DE CÓRNEA,UNILATERAL,não,0,BRUCE
+33,34,"Epífora, vasos episclerais ingurgitados, secreção mucoide",10.0,10.0,0,17.0,10.0,Gato SRD,12,OBSTRUÇÃO DO DUCTO LACRIMAL,UNILATERAL,não,0,PRETINHO
+34,35,"vasos episclerais ingurgitados, buftalmia, edema de córnea, neovascularização",15.0,15.0,1,35.0,15.0,Shi-tzu,12,GLAUCOMA,UNILATERAL,não,0,FLOR
+35,36,"vasos episclerais ingurgitados, edema de córnea, secreção purulenta, hipópio, descemetocele",15.0,15.0,1,14.0,15.0,Shi-tzu,5,ÚLCERA DE CÓRNEA,UNILATERAL,não,0,PAÇOCA
