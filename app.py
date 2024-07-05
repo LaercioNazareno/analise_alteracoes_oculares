@@ -132,23 +132,18 @@ bar_chart = alt.Chart(df_agrupado).mark_bar().encode(
 )
 st.altair_chart(bar_chart, use_container_width=True)
 ########################################################################################################################
-st.subheader('DIAGNÓSTICOS')
+st.subheader('Avaliação Alterações Oculares')
 
-diagnosticos_distintos = analise.buscar_valores_distintos(df, 'DIAGNÓSTICO')
-df_agrupado = analise.agrupar_df_por(df, ['DIAGNÓSTICO', 'LOCALIZAÇÃO'])
-
-analise_txt = f'''
-    A base de dados contém {len(diagnosticos_distintos)} direfentes tipos DIAGNÓSTICOS que são distribuidos daseguinte maneira:\n
-'''
-st.write(analise_txt)
+localizacao_distintos = analise.buscar_valores_distintos(df, 'LOCALIZAÇÃO')
+df_agrupado = analise.agrupar_df_por_avaliacao_ocular(df, ['LOCALIZAÇÃO'])
 
 st.dataframe(df_agrupado)
 bar_chart = alt.Chart(df_agrupado).mark_bar().encode(
     x=alt.X('Quantidade', title='Quantidade'),
-    y=alt.Y('DIAGNÓSTICO', title='DIAGNÓSTICO', sort='-x'),
-    color='DIAGNÓSTICO'
+    y=alt.Y('LOCALIZAÇÃO', title='LOCALIZAÇÃO', sort='-x'),
+    color='LOCALIZAÇÃO'
 ).properties(
-    title=f'Quantidade de DIAGNÓSTICO'
+    title=f'Quantidade de LOCALIZAÇÃO'
 )
 st.altair_chart(bar_chart, use_container_width=True)
 ########################################################################################################################
@@ -295,6 +290,21 @@ bar_chart = alt.Chart(df_agrupado).mark_bar().encode(
 )
 st.altair_chart(bar_chart, use_container_width=True)
 ########################################################################################################################
+st.subheader('Avaliação Alterações Oculares')
+
+localizacao_distintos = analise.buscar_valores_distintos(df, 'LOCALIZAÇÃO')
+df_agrupado = analise.agrupar_df_por_avaliacao_ocular(df, ['LOCALIZAÇÃO'])
+
+st.dataframe(df_agrupado)
+bar_chart = alt.Chart(df_agrupado).mark_bar().encode(
+    x=alt.X('Quantidade', title='Quantidade'),
+    y=alt.Y('LOCALIZAÇÃO', title='LOCALIZAÇÃO', sort='-x'),
+    color='LOCALIZAÇÃO'
+).properties(
+    title=f'Quantidade de LOCALIZAÇÃO'
+)
+st.altair_chart(bar_chart, use_container_width=True)
+########################################################################################################################
 st.subheader('Alterações')
 
 df = analise.buscar_dataframe_alteracao(df)
@@ -438,6 +448,21 @@ bar_chart = alt.Chart(df_agrupado).mark_bar().encode(
 )
 st.altair_chart(bar_chart, use_container_width=True)
 ########################################################################################################################
+st.subheader('Avaliação Alterações Oculares')
+
+localizacao_distintos = analise.buscar_valores_distintos(df, 'LOCALIZAÇÃO')
+df_agrupado = analise.agrupar_df_por_avaliacao_ocular(df, ['LOCALIZAÇÃO'])
+
+st.dataframe(df_agrupado)
+bar_chart = alt.Chart(df_agrupado).mark_bar().encode(
+    x=alt.X('Quantidade', title='Quantidade'),
+    y=alt.Y('LOCALIZAÇÃO', title='LOCALIZAÇÃO', sort='-x'),
+    color='LOCALIZAÇÃO'
+).properties(
+    title=f'Quantidade de LOCALIZAÇÃO'
+)
+st.altair_chart(bar_chart, use_container_width=True)
+########################################################################################################################
 st.subheader('Alterações')
 
 df = analise.buscar_dataframe_alteracao(df)
@@ -458,7 +483,6 @@ bar_chart = alt.Chart(df_agrupado).mark_bar().encode(
     title=f'Quantidade de alterações'
 )
 st.altair_chart(bar_chart, use_container_width=True)
-
 ########################################################################################################################
 st.header('Correlação')
 ########################################################################################################################

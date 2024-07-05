@@ -42,9 +42,9 @@
 40,13,edema de córnea
 41,13,miose
 42,13,vasos episclerais ingurgitados
-43,13,neovascularizaçao
+43,13,neovascularização
 44,14,neovascularização
-45,14,secreção purulenta
+45,14,secreção mucopurulenta
 46,14,vasos episclerais ingurgitados
 47,15,edema de córnea
 48,15,catarata
@@ -71,17 +71,17 @@
 69,20,não foi possivel realizar nenhum teste oftálmico por causa da gravidade do problema
 70,22,edema de córnea
 71,22,neovascularização
-72,22,secreção purulenta
+72,22,secreção mucopurulenta
 73,22,vasos episclerais ingurgitados
 74,22,ceratite pigmentar
 75,23,hipópio
 76,23,edema de córnea
 77,23,blefarite
-78,23,secreção purulenta
+78,23,secreção mucopurulenta
 79,23,vasos episclerais ingurgitados
 80,24,fundo de olho de coloração avermelhada
 81,25,sem secreção aparente
-82,25,sem secreção
+82,25,sem secreção aparente
 83,25,vasos episclerais ingurgitados
 84,26,edema de córnea
 85,26,vasos episclerais ingurgitados
@@ -100,7 +100,7 @@
 98,29,injeção episclearal
 99,30,neovascularização
 100,30,blefarite
-101,31,sem secreção
+101,31,sem secreção aparente
 102,31,vasos episclerais ingurgitados
 103,32,vasos episclerais ingurgitados
 104,32,secreção mucoide
@@ -116,6 +116,6 @@
 114,35,buftalmia
 115,36,hipópio
 116,36,edema de córnea
-117,36,secreção purulenta
+117,36,secreção mucopurulenta
 118,36,vasos episclerais ingurgitados
 119,36,descemetocele

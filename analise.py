@@ -16,6 +16,14 @@ class Analise:
         df_agrupado['Porcentagem'] = ((df_agrupado['Quantidade'] / total_count) * 100).round(2)
         return df_agrupado
     
+    def agrupar_df_por_avaliacao_ocular(self, df:pd.DataFrame, campo):
+        df_bilateral = df[df[campo] == 'BILATERAL']
+        df_completo = pd.concat([df, df_bilateral])
+        df_agrupado = df_completo.groupby(campo).size().reset_index(name='Quantidade')
+        total_count = df_agrupado['Quantidade'].sum()
+        df_agrupado['Porcentagem'] = ((df_agrupado['Quantidade'] / total_count) * 100).round(2)
+        return df_agrupado
+    
     def calcular_media(self, df:pd.DataFrame, campo: str):
         return df[campo].mean().round(2)
     
@@ -40,13 +48,12 @@ class Analise:
     def buscar_dataframe_alteracao(self, df):
         df2 = pd.read_csv('./dados/dados_animais_alteracoes.csv')
         df_merged = pd.merge(df, df2, on='Animal', how='inner')  
-        return df_merged[['alteracao','tem_leishmaniose']]
+        return df_merged[['alteracao', 'LOCALIZAÇÃO','tem_leishmaniose']]
     
     def buscar_colunas(self):
         df2 = pd.read_csv('./dados/dados_animais_alteracoes.csv')
         df_merged = pd.merge(self.df_animais, df2, on='Animal', how='inner')
         return df_merged.columns
-         
     
     def buscar_correlacao(self, colum):
         df2 = pd.read_csv('./dados/dados_animais_alteracoes.csv')
